@@ -10,8 +10,8 @@ function App() {
         <h1>Administración de animales</h1>
       </div>
       <div className='row'>
-        <div className='col-md-6'><TablaAnimales /></div>
-        <div className='col-md-6'></div>
+        <div className='col-md-9'><TablaAnimales /></div>
+        <div className='col-md-3'><img src={logo} alt="logo react"></img></div>
       </div>
     </div>
   );
